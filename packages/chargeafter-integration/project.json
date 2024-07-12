@@ -1,0 +1,23 @@
+{
+    "root": "packages/chargeafter-integration",
+    "sourceRoot": "packages/chargeafter-integration/src",
+    "projectType": "library",
+    "targets": {
+        "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "outputs": ["{options.outputFile}"],
+            "options": {
+                "lintFilePatterns": ["packages/chargeafter-integration/**/*.ts"]
+            }
+        },
+        "test": {
+            "executor": "@nrwl/jest:jest",
+            "outputs": ["coverage/packages/chargeafter-integration"],
+            "options": {
+                "jestConfig": "packages/chargeafter-integration/jest.config.js",
+                "passWithNoTests": true
+            }
+        }
+    },
+    "tags": []
+}

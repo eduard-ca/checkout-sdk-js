@@ -13,6 +13,7 @@
         "braintree-integration": "packages/braintree-integration",
         "braintree-utils": "packages/braintree-utils",
         "cardinal-integration": "packages/cardinal-integration",
+        "chargeafter-integration": "packages/chargeafter-integration",
         "checkoutcom-custom-integration": "packages/checkoutcom-custom-integration",
         "clearpay-integration": "packages/clearpay-integration",
         "core": "packages/core",
